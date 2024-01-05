@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "content-moderator-dev-test"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "sku": {
+            "value": "F0"
+        },
+        "resourceGroupName": {
+            "value": "LearnRG"
+        },
+        "resourceGroupId": {
+            "value": "/subscriptions/893da40f-2230-4424-8a27-13ff0c898ebf/resourceGroups/LearnRG"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "vnet": {
+            "value": {}
+        },
+        "ipRules": {
+            "value": []
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "identity": {
+            "value": {
+                "type": "None"
+            }
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "privateDnsZone": {
+            "value": "privatelink.cognitiveservices.azure.com"
+        }
+    }
+}

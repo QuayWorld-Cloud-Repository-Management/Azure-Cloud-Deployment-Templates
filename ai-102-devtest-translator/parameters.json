@@ -1,0 +1,55 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "ai-102-devtest-translator"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "sku": {
+            "value": "S1"
+        },
+        "resourceGroupName": {
+            "value": "AI-DEV-TEST"
+        },
+        "resourceGroupId": {
+            "value": "/subscriptions/893da40f-2230-4424-8a27-13ff0c898ebf/resourceGroups/AI-DEV-TEST"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "vnet": {
+            "value": {}
+        },
+        "ipRules": {
+            "value": []
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "identity": {
+            "value": {
+                "type": "None"
+            }
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "privateDnsZone": {
+            "value": "privatelink.cognitiveservices.azure.com"
+        },
+        "isCommitmentPlanForDisconnectedContainerEnabled": {
+            "value": false
+        },
+        "commitmentPlanForDisconnectedContainer": {
+            "value": {
+                "current": {},
+                "hostingModel": "DisconnectedContainer",
+                "planType": "Characters",
+                "autoRenew": true
+            }
+        }
+    }
+}

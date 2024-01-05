@@ -1,0 +1,86 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "ai-102-speech-service-1"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "sku": {
+            "value": "F0"
+        },
+        "resourceGroupName": {
+            "value": "AI-DEV-TEST"
+        },
+        "resourceGroupId": {
+            "value": "/subscriptions/893da40f-2230-4424-8a27-13ff0c898ebf/resourceGroups/AI-DEV-TEST"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "vnet": {
+            "value": {}
+        },
+        "ipRules": {
+            "value": []
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "identity": {
+            "value": {
+                "type": "None"
+            }
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "privateDnsZone": {
+            "value": "privatelink.cognitiveservices.azure.com"
+        },
+        "isCommitmentPlanForDisconnectedContainerEnabledForSTT": {
+            "value": false
+        },
+        "commitmentPlanForDisconnectedContainerForSTT": {
+            "value": {
+                "current": {
+                    "tier": "no_commitment",
+                    "count": 0
+                },
+                "hostingModel": "DisconnectedContainer",
+                "planType": "STT",
+                "autoRenew": true
+            }
+        },
+        "isCommitmentPlanForDisconnectedContainerEnabledForNeuralTTS": {
+            "value": false
+        },
+        "commitmentPlanForDisconnectedContainerForNeuralTTS": {
+            "value": {
+                "current": {
+                    "tier": "no_commitment",
+                    "count": 0
+                },
+                "hostingModel": "DisconnectedContainer",
+                "planType": "NTTS",
+                "autoRenew": true
+            }
+        },
+        "isCommitmentPlanForDisconnectedContainerEnabledForCustomSTT": {
+            "value": false
+        },
+        "commitmentPlanForDisconnectedContainerForCustomSTT": {
+            "value": {
+                "current": {
+                    "tier": "no_commitment",
+                    "count": 0
+                },
+                "hostingModel": "DisconnectedContainer",
+                "planType": "CustomSTT",
+                "autoRenew": true
+            }
+        }
+    }
+}
