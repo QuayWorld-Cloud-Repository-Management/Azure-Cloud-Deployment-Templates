@@ -1,0 +1,99 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "AI-LANGUAGE-BOT-1"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "sku": {
+            "value": "F0"
+        },
+        "resourceGroupName": {
+            "value": "AI-LANGUAGE-BOT"
+        },
+        "resourceGroupId": {
+            "value": "/subscriptions/0a9b7ff9-abcf-4195-8830-6b4795244467/resourceGroups/AI-LANGUAGE-BOT"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "vnet": {
+            "value": {}
+        },
+        "ipRules": {
+            "value": []
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "identity": {
+            "value": {
+                "type": "SystemAssigned"
+            }
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "privateDnsZone": {
+            "value": "privatelink.cognitiveservices.azure.com"
+        },
+        "storageEnabled": {
+            "value": false
+        },
+        "searchEnabled": {
+            "value": true
+        },
+        "azureSearchLocation": {
+            "value": "eastus"
+        },
+        "azureSearchSku": {
+            "value": "free"
+        },
+        "searchHostingMode": {
+            "value": "Default"
+        },
+        "storageResourceName": {
+            "value": ""
+        },
+        "storageLocation": {
+            "value": "eastus"
+        },
+        "storageSkuType": {
+            "value": ""
+        },
+        "storageNewOrExisting": {
+            "value": ""
+        },
+        "storageResourceGroupName": {
+            "value": "AI-LANGUAGE-BOT"
+        },
+        "umiId": {
+            "value": ""
+        },
+        "isCommitmentPlanForDisconnectedContainerEnabled": {
+            "value": false
+        },
+        "commitmentPlanForDisconnectedContainer": {
+            "value": {
+                "current": {},
+                "hostingModel": "DisconnectedContainer",
+                "planType": "TA",
+                "autoRenew": true
+            }
+        },
+        "isCommitmentPlanForSummarizationEnabled": {
+            "value": false
+        },
+        "commitmentPlanForSummarization": {
+            "value": {
+                "current": {},
+                "hostingModel": "DisconnectedContainer",
+                "planType": "Summarization",
+                "autoRenew": true
+            }
+        }
+    }
+}

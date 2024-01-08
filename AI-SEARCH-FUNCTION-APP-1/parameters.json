@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "e23f6608-d7fe-4998-ab18-d199be2d741b"
+        },
+        "name": {
+            "value": "AI-SEARCH-FUNCTION-APP-1"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "storageAccountName": {
+            "value": "aidevtestresourcesa7e3"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "use32BitWorkerProcess": {
+            "value": true
+        },
+        "netFrameworkVersion": {
+            "value": "v6.0"
+        },
+        "hostingPlanName": {
+            "value": "ASP-AIDEVTESTRESOURCES-b98b"
+        },
+        "serverFarmResourceGroup": {
+            "value": "AI-DEV-TEST-RESOURCES"
+        },
+        "alwaysOn": {
+            "value": false
+        }
+    }
+}

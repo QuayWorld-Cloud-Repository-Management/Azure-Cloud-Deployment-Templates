@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "AZURE-AI-MULTI-SVC-ACCT"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "sku": {
+            "value": "S0"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "identity": {
+            "value": {
+                "type": "None"
+            }
+        },
+        "resourceGroupName": {
+            "value": "AI-DEV-TEST-RESOURCES"
+        },
+        "resourceGroupId": {
+            "value": "/subscriptions/e23f6608-d7fe-4998-ab18-d199be2d741b/resourceGroups/AI-DEV-TEST-RESOURCES"
+        },
+        "vnet": {
+            "value": {}
+        },
+        "ipRules": {
+            "value": []
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "privateDnsZone": {
+            "value": "privatelink.cognitiveservices.azure.com"
+        }
+    }
+}
